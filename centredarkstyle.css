@@ -69,7 +69,7 @@ p{
 
 #titlecontainer{
 	width:100%;
-	height: 40%;
+	height: 30%;
 	background:;
 	position: absolute;
 	top: 0px; 
@@ -78,7 +78,7 @@ p{
 #titlestrip {
     width:100%;
     height:90px;
-    background:#fca311;
+    background:#B22723;
     position:absolute;
     bottom: 0px;
 }
@@ -96,7 +96,7 @@ p{
 
 #bodycontainer{
 	position: absolute;
-	top: 41%;
+	top: 31%;
 	width: 100%;
 
 }
@@ -109,7 +109,6 @@ p{
 #secondarycells{
 	width: 10%;
 }
-
 
 #videocontainter{
 
