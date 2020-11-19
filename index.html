@@ -4,7 +4,8 @@
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="centredarkstyle.css">
+        <link rel="stylesheet" type="text/css" href="Style/centredarkstyle.css">
+        <link rel="stylesheet" type="text/css" href="Style/jquery-ui.css">
         <meta http-equiv="content-type" content="text/php; charset=utf-8">
         <link rel="icon" type="image/png" href="favicon.ico">
         <title>DAWs</title>
@@ -51,19 +52,31 @@
           </td>
         </tr>
            <tr><td id="tablecells" valign="top" align="bottom">
-            <div style="width:80%;">
-               <p align="justify"><font color="#B0B0B0">Список программ для создание музыки:<br>
-
-               <a href="https://www.image-line.com/" style="color:#ED3E46;">FL Studio</a> - редактор-секвенсер для написання музики. Музика створюється шляхом запису і зведення (звукозапису) аудіо-, або MIDI-матеріалу.<br>
-               <a href="https://www.ableton.com/" style="color:#ED3E46;">Ableton Live</a> - програма для створення музики в класичному студійному режимі, та реальному часі.<br>
-               <a href="https://www.apple.com/logic-pro/" style="color:#ED3E46;">Logic Pro</a> - цифрова звукова робоча станція та MIDI секвенсер для Mac OS X.<br>
-               <a href="https://www.reaper.fm/" style="color:#ED3E46;">Reaper</a> - програмне середовище для аудіо виробництва, записи і аудіо інженеринг.<br>
-
-               </font></p>
-               <center>
-                    
-                </center>
+              <div id="accordion" style="width:80%;">
+                <h3>FL Studio</h3>
+                <div>
+                  <p>
+                    FL Studio - редактор-секвенсер для написання музики. Музика створюється шляхом запису і зведення (звукозапису) аудіо-, або MIDI-матеріалу.</p>
                 </div>
+                <h3>Ableton Live</h3>
+                <div>
+                  <p>
+                    Ableton Live - програма для створення музики в класичному студійному режимі, та реальному часі.
+                  </p>
+                </div>
+                <h3>Logic Pro</h3>
+                <div>
+                  <p>
+                    Logic Pro - цифрова звукова робоча станція та MIDI секвенсер для Mac OS X.
+                  </p>
+                </div>
+                <h3>Reaper</h3>
+                <div>
+                  <p>
+                    Reaper  - програмне середовище для аудіо виробництва, записи і аудіо інженеринг.
+                  </p>
+                </div>
+              </div>
                <table style="width:100%;" cellspacing="10px">
                    <tr>
                    <td width="100px"></td>
@@ -112,10 +125,11 @@
            	</td>
            </tr>
        </table>
-       
 
     </div>
-
+    <script src="JS/jquery.js"></script>
+    <script src="JS/jquery-ui.min.js"></script>
+    <script src="JS/script.js"></script>
     </body>
 
 </html></html>
