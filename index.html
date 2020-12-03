@@ -1,135 +1,154 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="Style/centredarkstyle.css">
-        <link rel="stylesheet" type="text/css" href="Style/jquery-ui.css">
-        <meta http-equiv="content-type" content="text/php; charset=utf-8">
-        <link rel="icon" type="image/png" href="favicon.ico">
-        <title>DAWs</title>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-         <link rel="shortcut icon" href="Images/Note.ico" type="image/x-icon">
-    </head>
+<head>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" type="text/css" href="Style/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="Style/centredarkstyle.css">
+    <meta http-equiv="content-type" content="text/php; charset=utf-8">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <title>DAWs</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="Images/Note.ico" type="image/x-icon">
+    <script src="JS/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/TheFirstGame.json", {onProgress: UnityProgress});
+    </script>
+</head>
 
-    <body bgcolor="#000000">
-    
-    <div id="titlecontainer">
+<body bgcolor="#000000">
+
+<div id="titlecontainer">
 
     <div id="screenshots">
-    <table border="0" style="width:100%; position:absolute; bottom:0px;" cellspacing="15px" cellpadding="0"><tr valign="bottom">
-            <td><a href="Screenshots\1.jpg"> <img src="Screenshots\1.jpg" width="200px"></a></td>
-            <td><a href="Screenshots\2.jpg"> <img src="Screenshots\2.jpg" width="200px"></a></td>
-            <td><a href="Screenshots\3.jpg"> <img src="Screenshots\3.jpg" width="200px"></a></td>
-            <td><a href="Screenshots\4.jpg"> <img src="Screenshots\4.jpg" width="200px"></a></td>
-            <td><a href="Screenshots\5.jpg"> <img src="Screenshots\5.jpg" width="200px"></a></td>
-            <td><a href="Screenshots\6.jpg"> <img src="Screenshots\6.jpg" width="200px"></a></td>
-            <td><a href="Screenshots\7.png"> <img src="Screenshots\7.png" width="200px"></a></td>
-    </tr></table>
+        <table border="0" style="width:100%; position:absolute; bottom:0px;" cellspacing="15px" cellpadding="0">
+            <tr valign="bottom">
+                <td><a href="Screenshots\1.jpg"> <img src="Screenshots\1.jpg" width="200px"></a></td>
+                <td><a href="Screenshots\2.jpg"> <img src="Screenshots\2.jpg" width="200px"></a></td>
+                <td><a href="Screenshots\3.jpg"> <img src="Screenshots\3.jpg" width="200px"></a></td>
+                <td><a href="Screenshots\4.jpg"> <img src="Screenshots\4.jpg" width="200px"></a></td>
+                <td><a href="Screenshots\5.jpg"> <img src="Screenshots\5.jpg" width="200px"></a></td>
+                <td><a href="Screenshots\6.jpg"> <img src="Screenshots\6.jpg" width="200px"></a></td>
+                <td><a href="Screenshots\7.png"> <img src="Screenshots\7.png" width="200px"></a></td>
+            </tr>
+        </table>
     </div>
-        <div id="titlestrip">
-            <div align="center">
-                <video autoplay="" loop="" muted="" controller="false" width="470" height="90">
-                    <source type="video/webm" src="Images\LinedTitle.mp4">
-                    <a href="index-1.htm">
-                        <img src="Images\LinedTitle.png" width="470" height="90">
-                    </a>
-                </video>
-            </div>
+    <div id="titlestrip">
+        <div align="center">
+            <video autoplay="" loop="" muted="" controller="false" width="470" height="90">
+                <source type="video/webm" src="Images\LinedTitle.mp4">
+                <a href="index-1.htm">
+                    <img src="Images\LinedTitle.png" width="470" height="90">
+                </a>
+            </video>
         </div>
     </div>
+</div>
 
 
-
-    <div align="center" id="bodycontainer">
-       <table align="center">
-           <tr><td id="tablecells" valign="top">
-               <iframe width="100%" style="min-height:400px;" height="100%" src="https://www.youtube.com/embed/iTBJNTxUlnI" frameborder="0" allowfullscreen=""></iframe>
-           </td>
-           <td id="tablecells" valign="top">
-            <iframe width="100%" style="min-height:400px;" height="100%" src="https://www.youtube.com/embed/HgBPwJe4TeQ" frameborder="0" allowfullscreen=""></iframe>
-          </td>
+<div align="center" id="bodycontainer">
+    <table align="center">
+        <tr>
+            <td id="tablecells" valign="top">
+                <iframe width="100%" style="min-height:400px;" height="100%"
+                        src="https://www.youtube.com/embed/iTBJNTxUlnI" frameborder="0" allowfullscreen=""></iframe>
+            </td>
+            <td id="tablecells" valign="top">
+                <iframe width="100%" style="min-height:400px;" height="100%"
+                        src="https://www.youtube.com/embed/HgBPwJe4TeQ" frameborder="0" allowfullscreen=""></iframe>
+            </td>
         </tr>
-           <tr><td id="tablecells" valign="top" align="bottom">
-              <div id="accordion" style="width:80%;">
-                <h3>FL Studio</h3>
-                <div>
-                  <p>
-                    FL Studio - редактор-секвенсер для написання музики. Музика створюється шляхом запису і зведення (звукозапису) аудіо-, або MIDI-матеріалу.</p>
+        <tr>
+            <td id="tablecells" valign="top" align="bottom">
+                <div id="accordion" style="width:80%;">
+                    <h3>FL Studio</h3>
+                    <div>
+                        <p>
+                            FL Studio - редактор-секвенсер для написання музики. Музика створюється шляхом запису і
+                            зведення (звукозапису) аудіо-, або MIDI-матеріалу.</p>
+                    </div>
+                    <h3>Ableton Live</h3>
+                    <div>
+                        <p>
+                            Ableton Live - програма для створення музики в класичному студійному режимі, та реальному
+                            часі.
+                        </p>
+                    </div>
+                    <h3>Logic Pro</h3>
+                    <div>
+                        <p>
+                            Logic Pro - цифрова звукова робоча станція та MIDI секвенсер для Mac OS X.
+                        </p>
+                    </div>
+                    <h3>Reaper</h3>
+                    <div>
+                        <p>
+                            Reaper - програмне середовище для аудіо виробництва, записи і аудіо інженеринг.
+                        </p>
+                    </div>
                 </div>
-                <h3>Ableton Live</h3>
-                <div>
-                  <p>
-                    Ableton Live - програма для створення музики в класичному студійному режимі, та реальному часі.
-                  </p>
-                </div>
-                <h3>Logic Pro</h3>
-                <div>
-                  <p>
-                    Logic Pro - цифрова звукова робоча станція та MIDI секвенсер для Mac OS X.
-                  </p>
-                </div>
-                <h3>Reaper</h3>
-                <div>
-                  <p>
-                    Reaper  - програмне середовище для аудіо виробництва, записи і аудіо інженеринг.
-                  </p>
-                </div>
-              </div>
-               <table style="width:100%;" cellspacing="10px">
-                   <tr>
-                   <td width="100px"></td>
-                   <td>
-                       <center>
-                            <a href="https://www.image-line.com/">
-                                <img src="Images\fl-studio.png" style="max-height:85px;">
-                            </a>
-                        
-                    </center></td>
+                <table style="width:100%;" cellspacing="10px">
+                    <tr>
+                        <td width="100px"></td>
+                        <td>
+                            <center>
+                                <a href="https://www.image-line.com/">
+                                    <img src="Images\fl-studio.png" style="max-height:85px;">
+                                </a>
 
-                    <td>
-                       <center>
-                            <a href="https://www.ableton.com/">
-                                <img src="Images\Ableton.png" style="max-height:85px;">
-                            </a>
-                        
-                    </center></td>
+                            </center>
+                        </td>
 
-                    <td>
-                       <center>
-                            <a href="https://www.apple.com/logic-pro/">
-                                <img src="Images\Logic Pro.png" style="max-height:85px;">
-                            </a>
-                        
-                    </center></td>
+                        <td>
+                            <center>
+                                <a href="https://www.ableton.com/">
+                                    <img src="Images\Ableton.png" style="max-height:85px;">
+                                </a>
 
-                    <td>
-                       <center>
-                            <a href="https://www.reaper.fm/">
-                                <img src="Images\Reaper.png" style="max-height:85px;">
-                            </a>
-                        
-                    </center></td>
+                            </center>
+                        </td>
 
-                    <td width="100px"></td>
-                   </tr>
-               </table>
+                        <td>
+                            <center>
+                                <a href="https://www.apple.com/logic-pro/">
+                                    <img src="Images\Logic Pro.png" style="max-height:85px;">
+                                </a>
 
-           </td>
-           	<td style="vertical-align: top;">
-              <p style="color:#B0B0B0; text-align: left;" >До FL Studio:</p>
-           		<audio src="Music/39_Dont_Forget.flac" controls="controls"></audio>
-              <p style="color:#B0B0B0; text-align: left;" >После FL Studio:</p>
-              <audio src="Music/Dont_Forget_LittleV.mp3" controls="controls"></audio>
-           	</td>
-           </tr>
-       </table>
+                            </center>
+                        </td>
 
-    </div>
-    <script src="JS/jquery.js"></script>
-    <script src="JS/jquery-ui.min.js"></script>
-    <script src="JS/script.js"></script>
-    </body>
+                        <td>
+                            <center>
+                                <a href="https://www.reaper.fm/">
+                                    <img src="Images\Reaper.png" style="max-height:85px;">
+                                </a>
 
-</html></html>
+                            </center>
+                        </td>
+
+                        <td width="100px"></td>
+                    </tr>
+                </table>
+
+            </td>
+            <td style="vertical-align: top;">
+                <p style="color:#B0B0B0; text-align: left;">До FL Studio:</p>
+                <audio src="Music/39_Dont_Forget.flac" controls="controls"></audio>
+                <p style="color:#B0B0B0; text-align: left;">После FL Studio:</p>
+                <audio src="Music/Dont_Forget_LittleV.mp3" controls="controls"></audio>
+            </td>
+        </tr>
+    </table>
+    <div id="unityContainer" style="width: 800px; height: 600px"></div>
+
+</div>
+<script src="JS/jquery.js"></script>
+<script src="JS/jquery-ui.min.js"></script>
+<script src="JS/script.js"></script>
+</body>
+
+</html>
+</html>
